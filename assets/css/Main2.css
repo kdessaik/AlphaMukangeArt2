@@ -39,9 +39,32 @@
         width: 757px;
       
     }
+    .about--banner>img{
+        width: 50%;
+    }
+    .about--banner>p{
+        font-family: 'Courier New', Courier, monospace;
+    }
 
     
 }
+
+@media (max-width: 800px){
+    .about--banner img {
+        width: 40%;
+}}
+
+@media (max-width: 770px){
+    .about--banner img {
+        display: none;
+}
+}
+@media (max-width: 600px){
+    .about--banner p {
+    margin-top: 50%;
+}}
+
+
 @media (max-width: 900px){
     .intro--banner h1>span{
         color: white;
@@ -67,3 +90,27 @@
 
 
 }
+@media (max-width: 800px){
+    .intro--options>a>img{
+        width: 10%;
+    }
+    .intro--options>a>div>img{
+        width: 10%;
+    }
+}
+@media (max-width: 360px){
+    
+.device-notification--logo>img{
+    width: 500px;
+}
+    
+}
+
+@media (max-width: 800px){
+    .cta {
+    margin-top: 2%;
+}}
+@media (max-width: 1500px){
+    .about--banner>img {
+    width: 40%;
+}}
