@@ -73,11 +73,8 @@
     }
 @media (max-width: 800px){
     .intro--banner>img{
-        display: inline;
-     
-      
+        display: inline;      
         margin-bottom: 60%;
-       
         width: 350px;
     }
 .intro--banner h1{
@@ -87,8 +84,6 @@
 .cta{
     margin-top: 20%;
 }
-
-
 }
 @media (max-width: 800px){
     .intro--options>a>img{
@@ -114,3 +109,15 @@
     .about--banner>img {
     width: 40%;
 }}
+.contact {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/Location.jpg);
+    background-position: center;
+    background-size:85%;
+    backdrop-filter: blur(20px);
+    background-repeat: no-repeat;
+}
