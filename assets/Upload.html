@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="./css/Main2.css">
+
+    </head>
+    <body>
+        <Form>
+            <input id="fileInput" type="file">
+            <input type="button" value="">
+            <button type="submit"></button>
+        </Form>
+        <button onclick="click1()">fttt</button>
+        
+<script>
+   
+    const click1=()=>{
+        const uploadFileEle = document.getElementById("fileInput")
+console.log(uploadFileEle.files[0]);
+console.log(uploadFileEle.value)
+    }
+    
+</script>
+<script>
+    const fs = require('fs')
+const filePath = './img/samurai.jpg'
+const copy = './resources/samurai.jpg'
+fs.copyFile(filePath, copy, (error) => {
+  if (error) {
+    throw error
+  } else {
+    console.log('File has been moved to another folder.')
+  }
+})
+</script>
+    </body>
+</html>
